@@ -2,8 +2,7 @@ import dash
 import dash_bootstrap_components as dbc
 import tweepy
 
-client = tweepy.Client('AAAAAAAAAAAAAAAAAAAAALFYTwEAAAAALIryxXgjuoWSq4CJhv1EK%2BEzB98%3DaTfpqXbdgcxiPsM5SyI4fEQXe2s8ISX'
-                       'Fn3QiFwjjnZWHWi3FMm')
+client = tweepy.Client('YOUR TOKEN HERE')
 # ensure you connected correctly
 # print(api.VerifyCredentials())
 # exit()
