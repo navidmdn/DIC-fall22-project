@@ -77,3 +77,11 @@ you can simply run the webserver following the snippet below and then going to `
 cd dashboard/
 python index.py
 ```
+
+# Conclusions
+
+In this project, I've built a model that can be used to analyze a user's stance on various social topics (e.g. abortion, politics, etc) on a social
+media platform just through their social media profile description. Then I served my model through a web application and combined it with twitter api
+so that anyone can use it and apply the model on any random public user on twitter. For future work, this model can be extended to show confidence 
+interval for each of the stance detection criteria. As an example, the bio might not talk about a user's stance on abortion it can be considered by a 
+separate model and the uncertainity can be calculated along with the score.
