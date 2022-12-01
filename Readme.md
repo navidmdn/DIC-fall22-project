@@ -33,7 +33,7 @@ to use this model for third phase.
 According to the final evaluation of the models and the comparison on their f1 scores 
 in phase 2 which is represented in the figure below
 
-![](statics/f1s.png)
+<img src="statics/f1s.png" width="400" height="400">
 
 and the reasons described in the previous section I use a fine-tuned version of a
 language model in this phase. Since the fine-tuning process is out of scope of this 
